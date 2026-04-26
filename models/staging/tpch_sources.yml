@@ -16,6 +16,6 @@ sources:
           - name: l_orderkey
             tests:
               - relationships:
-                  to: sources('tpch','orders')
+                  to: source('tpch','orders')
                   field: o_orderkey
 
